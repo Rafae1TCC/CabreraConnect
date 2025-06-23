@@ -1,0 +1,61 @@
+.form-box {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 350px;
+}
+
+.login-container, .register-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: all 0.5s ease;
+    opacity: 0;
+    z-index: 1;
+}
+
+.login-container {
+    left: 0;
+    opacity: 1;
+    z-index: 2;
+}
+
+.register-container {
+    right: -100%;
+    z-index: 1;
+}
+
+.input-box {
+    position: relative;
+    margin: 10px 0;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+}
+
+
+.submit:hover {
+    background-color: #0056b3;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.two-forms {
+    display: flex;
+    justify-content: space-between;
+}
